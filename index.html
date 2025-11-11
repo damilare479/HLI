@@ -1,0 +1,856 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLI | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Galaxy -->
+     <link rel="stylesheet" href="./assets/lightbox.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">HEALTH-ENLIGHT-INITIATIVE</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#Team" class="list-link">Team</a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="post3.html" class="list-link">About Us</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a href="post.html" class="list-link">Blog</a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="gallery.html" class="list-link">Gallery</a>
+                    </li>
+                   
+                    
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link"></a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">VISION</span>
+                    </h3>
+                    <span class="headline-description">To build a healthier and more informed society.</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/trending/Breast_Cancer.png" alt="" class="article-image"  onclick="window.location.href='./post.html'">>
+                    
+                    <span class="article-category">Latest Post</span>
+
+                    <div class="article-data-container-head">
+
+                        <div class="article-data">
+                            <span>5 Oct 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Breast Cancer</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/quick_read/Daily3.jpg" alt="" class="article-image">
+                    
+
+                    <div class="article-data-container-head">
+
+                        <div class="article-data">
+                            <span>Oct 6th 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Daily Snippet</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/home.jpg" alt="" class="article-image"  onclick="window.location.href='./post.html'">
+                    <span class="article-category">OUTREACH</span>
+
+                    <div class="article-data-container-head">
+
+                        <div class="article-data">
+                            <span></span>
+                            
+                            <span></span>
+                        </div>
+
+                        <h3 class="title article-title">Wesley Girls Junior School</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">BLOG</h3>
+
+                <a href="blog1.html" class="trending-news-box" id="autoshow">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/Breast_Cancer.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>05 Oct 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Breast Cancer</h3>
+
+                    </div>
+                </a>
+
+                <a href="post.html" class="trending-news-box" id="autoshow">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/featured/home.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>12 Oct 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Wesley Girls Junior School <br> (Personal Hygiene) </h3>
+
+                    </div>
+                </a>
+
+                <a href="blog3.html" class="trending-news-box" id="autoshow">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending//superbugs.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>30 Sept 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Superbugs</h3>
+
+                    </div>
+                </a>
+
+                <a href="blog4.html" class="trending-news-box" id="autoshow">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trad1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>14 Sept 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Truth About Traditional Herbs</h3>
+
+                    </div>
+                </a>
+
+                <a href="blog6.html" class="trending-news-box" id="autoshow">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="/assets/images/trending/screen.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>18 Sept 2025</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Screen fatigue: What it is and How to Manage it</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    
+        
+
+    </section>
+
+
+
+<section class="counter-section" id="stats">
+  <div class="counter-container">
+    <div class="counter-box">
+      <div class="icon"><i class="ri-hand-heart-line"></i></div>
+      <span class="count" data-count="3">0</span>
+      <p class="label">Outreach</p>
+    </div>
+
+    <div class="counter-box">
+      <div class="icon"><i class="ri-group-line"></i></div>
+      <span class="count" data-count="50" data-suffix="+">0</span>
+      <p class="label">Students Reached</p>
+    </div>
+
+    <div class="counter-box">
+      <div class="icon"><i class="ri-compass-line"></i></div>
+      <span class="count" data-count="1000" data-suffix="+">0</span>
+      <p class="label">Target Students</p>
+    </div>
+
+
+
+    <div class="counter-box">
+      <div class="icon"><i class="ri-user-star-line"></i></div>
+      <span class="count" data-count="9">0</span>
+      <p class="label">Team Members</p>
+    </div>
+  </div>
+</section>
+    
+<section class="quick-read section" id="Team">
+
+        <div class="container" id="autoshow">
+
+            <h2 class="title section-title" data-name="HLI TEAM">HLI TEAM</h2>
+     
+            <div class="swiper">
+                
+                <div class="swiper-wrapper">
+                    
+                    <a href="#" class="article swiper-slide">
+
+                        
+                        <img src="./assets/images/quick_read/Daniel-removebg-preview.png" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Founder</span>
+                            </div>
+                            <h3 class="title article-title">Ayooluwa Daniel</h3>
+                            
+                        </div>
+                       
+      
+        
+                        
+                    </a>
+                    
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/akpederiii.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Co-Founder</span>
+                            </div>
+                            <h3 class="title article-title">Akpederi Gloria</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/Banke.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Research Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Banke</h3>
+                        </div>
+                    </a>
+
+                   
+
+                     <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/DAREEE.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Research Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Mustapha Oluwadare</h3>
+                        </div>
+                    </a>
+
+                    
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/tomiwa.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Program Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Tomiwa</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/evans 1.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Program Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Oleka Evans</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/Fuad.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Program Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Jebe-Abdullahi Fuad</h3>
+                        </div>
+                    </a>
+                   
+            
+                  
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/Hamdalah.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Media Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Hamdalah</h3>
+                        </div>
+                    </a>
+                   
+                     <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/Tijesunimoje.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                
+                                <span class="article-data-spacer"></span>
+                                <span>Media Team Lead</span>
+                            </div>
+                            <h3 class="title article-title">Tijesunimoje</h3>
+                        </div>
+                    </a>
+                   
+                    
+                   
+                    
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+<section class="impact-tracker section" id="impact">
+  <div class="container">
+    <h2 class="title section-title">Impact Tracker</h2>
+
+    <div class="impact-grid">
+      <!-- Progress Bars -->
+      <div class="impact-progress">
+        <h3>Outreach Progress</h3>
+        <div class="progress-item">
+          <span>Schools Reached</span>
+          <div class="progress-bar"><div class="progress-fill" data-progress="65"></div></div>
+        </div>
+
+        <div class="progress-item">
+          <span>Health Awareness Campaigns</span>
+          <div class="progress-bar"><div class="progress-fill" data-progress="40"></div></div>
+        </div>
+
+        <div class="progress-item">
+          <span>Volunteer Engagement</span>
+          <div class="progress-bar"><div class="progress-fill" data-progress="80"></div></div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="impact-map">
+        <h3>Outreach Locations</h3>
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Upcoming Event Section -->
+<section class="countdown-section section" id="upcoming-event">
+  <div class="container">
+    <h2 class="title section-title" data-name="Next Outreach">Next Outreach Event</h2>
+    <p class="countdown-text">Join us for our next outreach at <strong>Wesley Girls Junior High School</strong>!</p>
+    
+    <div class="countdown-timer">
+      <div class="time-box">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="time-box">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<script>
+  // Set the date of your next outreach
+  const eventDate = new Date("November 12, 2025 12:00:00").getTime();
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = eventDate - now;
+
+    // Time calculations
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Update display
+    document.getElementById("days").innerText = days < 10 ? "0" + days : days;
+    document.getElementById("hours").innerText = hours < 10 ? "0" + hours : hours;
+    document.getElementById("minutes").innerText = minutes < 10 ? "0" + minutes : minutes;
+    document.getElementById("seconds").innerText = seconds < 10 ? "0" + seconds : seconds;
+
+    // When countdown is over
+    if (distance < 0) {
+      clearInterval(timer);
+      document.querySelector(".countdown-timer").innerHTML = "<h3>🎉 The outreach event is happening today!</h3>";
+    }
+  }, 1000);
+</script>
+
+
+
+<!-- Modal -->
+
+
+<script>
+        const eventDate = new Date("Nov 25, 2025 10:00:00").getTime();
+
+    function flipUpdate(id, value) {
+    const flipEl = document.getElementById(id);
+    flipEl.innerHTML = `<span>${value}</span>`;
+    flipEl.classList.remove('flip');
+    void flipEl.offsetWidth; // trigger reflow
+    flipEl.classList.add('flip');
+    }
+
+    function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = eventDate - now;
+
+    if (distance < 0) {
+        document.getElementById("countdown-timer").innerHTML = "<p>Event is live now! 🎉</p>";
+        clearInterval(countdownInterval);
+        return;
+    }
+
+    const days = Math.floor(distance / (1000*60*60*24));
+    const hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+    const minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
+    const seconds = Math.floor((distance % (1000*60)) / 1000);
+
+    flipUpdate("flip-days", days);
+    flipUpdate("flip-hours", hours);
+    flipUpdate("flip-minutes", minutes);
+    flipUpdate("flip-seconds", seconds);
+    }
+
+    const countdownInterval = setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    // Modal Logic
+    const joinBtn = document.getElementById("join-event-btn");
+    const modal = document.getElementById("event-modal");
+    const closeBtn = document.getElementById("modal-close");
+    const form = document.getElementById("event-form");
+    const successMsg = document.getElementById("form-success");
+
+    joinBtn.onclick = () => modal.style.display = "flex";
+    closeBtn.onclick = () => modal.style.display = "none";
+    window.onclick = e => { if(e.target === modal) modal.style.display = "none"; }
+
+    // Form submission simulation
+    form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    form.style.display = "none";
+    successMsg.style.display = "block";
+    });
+</script>
+
+<script>
+// Animate progress bars on scroll
+document.addEventListener('DOMContentLoaded', () => {
+  const fills = document.querySelectorAll('.progress-fill');
+  const section = document.querySelector('.impact-tracker');
+
+  if (!section) return;
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        fills.forEach(fill => {
+          const progress = fill.getAttribute('data-progress');
+          fill.style.width = progress + '%';
+        });
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(section);
+});
+
+// Initialize Leaflet Map
+document.addEventListener('DOMContentLoaded', function () {
+  const map = L.map('map').setView([6.5244, 3.3792], 10); // Lagos coordinates
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Example outreach points
+  const outreachLocations = [
+    { name: 'University of Lagos', coords: [6.516, 3.384] },
+    { name: 'Wesley Girls Junior School', coords: [6.45, 3.35] },
+    { name: 'Bariga Health Centre', coords: [6.54, 3.38] }
+  ];
+
+  outreachLocations.forEach(loc => {
+    L.marker(loc.coords)
+      .addTo(map)
+      .bindPopup(`<b>${loc.name}</b><br>Outreach Completed ✅`);
+  });
+});
+</script>
+
+
+<!-- Floating Video Trigger Button -->
+<button id="watchBtn" class="floating-btn">
+  <i class="ri-play-circle-fill"></i>
+  <span>Watch Outreach Highlights</span>
+</button>
+
+<!-- Video Modal -->
+<div id="videoModal" class="video-modal">
+  <div class="video-modal-content">
+    <span class="close-modal" id="closeVideo">&times;</span>
+    <video id="outreachVideo" controls>
+      <source src="./assets/images/galaxy/WhatsApp Image - 1 (1).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<script>
+  const watchBtn = document.getElementById('watchBtn');
+  const videoModal = document.getElementById('videoModal');
+  const closeVideo = document.getElementById('closeVideo');
+  const outreachVideo = document.getElementById('outreachVideo');
+
+  watchBtn.addEventListener('click', () => {
+    videoModal.style.display = 'flex';
+    outreachVideo.play();
+  });
+
+  closeVideo.addEventListener('click', () => {
+    outreachVideo.pause();
+    videoModal.style.display = 'none';
+  });
+
+  // Close when clicking outside video
+  window.addEventListener('click', (e) => {
+    if (e.target === videoModal) {
+      outreachVideo.pause();
+      videoModal.style.display = 'none';
+    }
+  });
+</script>
+
+<script>
+    const video = document.getElementById('my');
+
+    video.addEventListener('click', () => {
+    if (video.paused) {
+        video.play();
+    } else {
+        video.pause();
+    }
+    });
+</script>
+    <!-- Older posts -->
+    
+
+    
+    
+    <!-- Newsletter -->
+   
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">HEALTH-ENLIGHT-INITIATIVE</h2>
+                </a>
+                <p class="company-description">Building a healthier and more informed society through outreach, education, and wellness programs.</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/p/DQEMqCmjRVN/?img_index=5&igsh=NWI5N3RyNWZjZG92" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://x.com/TheHLInitiative/status/1980562699718443386?t=D7Bg_TxOy7T-aH104jZTPQ&s=19" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-linkedin-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2025 HLI. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Wellness</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Outreach</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Science</a>
+                    </li>
+                   
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Team</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Blog</a>
+                    </li>
+                   
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Intiative</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                 
+                </ul>
+            </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+  const counters = document.querySelectorAll('.count');
+  const section = document.querySelector('#stats');
+
+  if (!section || counters.length === 0) return;
+
+  // Animate each counter smoothly
+  function animateCount(el, target, suffix = '') {
+    const start = 0;
+    const duration = Math.min(Math.max(target * 10, 800), 2000);
+    const startTime = performance.now();
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function update(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const value = Math.floor(start + easeOutCubic(progress) * (target - start));
+      el.textContent = value + suffix;
+      if (progress < 1) requestAnimationFrame(update);
+      else el.textContent = target + suffix;
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        counters.forEach(el => {
+          const target = parseInt(el.dataset.count, 10);
+          const suffix = el.dataset.suffix || '';
+          if (!isNaN(target)) animateCount(el, target, suffix);
+        });
+        obs.unobserve(entry.target); // trigger only once
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(section);
+});
+    </script>
+
+<script>
+  new WOW().init();
+</script>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</body>
+</html>
